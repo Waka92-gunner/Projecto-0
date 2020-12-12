@@ -1,0 +1,68 @@
+
+ELENA@DESKTOP-COA0A78 MINGW64 ~
+$ egit branch -M main
+cho "# Projecto-0" >> README.md
+git remote agregar origen https://github.com/Waka92-gunner/Projecto- 0.git
+ git push -u origin main
+ELENA@DESKTOP-COA0A78 MINGW64 ~
+$ git init
+Initialized empty Git repository in C:/Users/ELENA/.git/
+
+ELENA@DESKTOP-COA0A78 MINGW64 ~ (master)
+$ git agregar README.md
+git: 'agregar' is not a git command. See 'git --help'.
+
+ELENA@DESKTOP-COA0A78 MINGW64 ~ (master)
+$ git commit -m "primer compromiso"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ELENA@DESKTOP-COA0A78.(none)')
+
+ELENA@DESKTOP-COA0A78 MINGW64 ~ (master)
+$ git branch -M main
+error: refname refs/heads/master not found
+fatal: Branch rename failed
+
+ELENA@DESKTOP-COA0A78 MINGW64 ~ (master)
+$ git remote agregar origen https://github.com/Waka92-gunner/Projecto- 0.git
+error: Unknown subcommand: agregar
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+ELENA@DESKTOP-COA0A78 MINGW64 ~ (master)
+$  git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+
+ELENA@DESKTOP-COA0A78 MINGW64 ~ (master)
+$ git push -u origin main others
+error: src refspec main does not match any
+error: src refspec others does not match any
+error: failed to push some refs to 'origin'
+
+ELENA@DESKTOP-COA0A78 MINGW64 ~ (master)
+$ git push -u origin main
